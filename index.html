@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <title>Aiteur Abdelatif</title>
+</head>
+<body>
+    <div class=hero>
+        <nav id="nav">
+        <a href="."><h2 class="logo"><span>A.A</span>bdelatif</h2></a>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul id="Nav-element">
+                <li ><a href="#AboutMe">About me</a></li>
+                <li ><a href="#serv_section">Services</a></li>
+                <li ><a href="#Exp_section">Experiance</a></li>
+                <li ><a href="#Skill_Section">Skills</a></li>
+                <!--<li id="menubar" data-nav-target="#modal">Menu</li>-->
+        </ul>
+            
+            
+        </nav>
+        <div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Aiteur <span>Abdelatif</span></h1>
+			<h3>I'am a Web/Mobile Developer.</h3>
+		</div>
+    </div>
+    
+    <section id="about_section">
+        <div id="AboutMe">
+            <div class="Picture-Section">
+                <img src="./assets/abdelatif.jpg" alt="abdelatif">
+            </div>
+            <div class="Information-Section">
+    
+                <div class="GeneralInfo">
+                    <h1>About Me</h1>
+                    <p>Aiteur Abdelatif,I'm 3rd year Computer Science student. I want to put my skills and knowledge in a real challenge.
+                        I worked on many projects the last two years that ended with great apps and websites.</p>
+                </div>
+    
+                <div class="ContactMe">
+                    <h1>Contact Me</h1>
+                    <ul>
+                        <li>ja_aiteur@esi.dz</li>
+                        <li>0551666103</li>
+                        <li>@abdellatifaiteur</li>
+                    </ul>
+                    <a href="./Aiteur_Abdelatif.pdf" download><button id="Download">Download my CV</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="serv_section">
+        <h1 class="title">Services</h1>
+        <div class="Services">
+        <div class="card">
+            <h3><span>Mobile</span> DEV</h3>
+            <p>If you are looking for a mobile Developer,I can create cool apps using flutter and firebase.With a orgnized code and fully functional backend</p>
+        </div>
+        
+        <div class="card">
+            <h3><span>Web</span> DEV</h3>
+            <p>Do you want a cool website? with backend too? well i can do that for you, I can develop websites 
+                using the MERN stack.
+            </p>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="Exp_section">
+        <h1 class="title">Experience</h1>
+        <div class="Experiance">
+            
+                <div class="card" data-modal-target="#modal">
+                    <h3>BiblioShop</h3>
+                    <p>BiblioShop is a mobile app for selling books online.We worked as team of 6 members.
+                        I implemented the backend + conception of database as well as some forntend pages</p>
+                </div>
+            
+                <div class="card" data-modal-target="#modal2">
+                    <h3>LearnPlat</h3>
+                    <p>LearnPlat is a learning platform for GDG members.We worked as team of 10 members.I implemented the database conception and the backend using NodeJs MongoDB</p>
+                </div>
+            
+                <div class="card" data-modal-target="#modal3">
+                    <h3>Portfolio</h3>
+                    <p>WHich is this website. worked on during a web bootcamp.It's done only HTML CSS JS</p>
+                </div>
+            
+        </div>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+              <div class="title">Biblio<span>Shop</span></div>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              It was a mobile project during my academic career.The problem was to help people find their wanted book easly.<br>
+              I worked on both frontend and backend.I implemented most of functionality of the backend such as : the search function, database conception,as well as the authentification<br>
+              On the frontend side, I worked on the result screen, where the result of the search function display in cool list .I also worked on the edit profile screen 
+            </div>
+        </div>
+        <div class="modal" id="modal2">
+            <div class="modal-header">
+              <div class="title">Learn<span>Plat</span></div>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              LearnPlat, GDG project designed to help gdg members to learn new technologies. We worked on during GIP (GDG Integration Program).<br>
+              I worked on the Backend side in this project using Nodejs ExpressJS MongoDB.I worked also on the database conception.<br>
+              We worked as a team of 10 people on it, and we managed to progress really well in only 3 weeks .
+            </div>
+        </div>
+        <div class="modal" id="modal3">
+            <div class="modal-header">
+              <div class="title">Port<span>folio</span></div>
+              <button data-close-button class="close-button">&times;</button>
+            </div>
+            <div class="modal-body">
+              Portfolio, which is this website. It's a only HTML CSS JS website, worked on during GDB (a bootcamp on web development).<br>
+              It is a simple website that contients some of the information about me as a developer.
+            </div>
+        </div>
+          <div id="overlay"></div>
+    </section>
+    
+    <section id="Skill_Section">
+        <h1 class="title">Skills</h1>
+        <div class="Skills">
+                <div class="card">
+                    <h1>Soft Skills</h1>
+                    <ul>
+                        <li>Fast Learner</li>
+                        <li>Responsible</li>
+                        <li>good team leader</li>
+                        <li>teamworker</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h1>Technical Skills</h1>
+                <ul>
+                    <li>NodeJS</li>
+                    <li>ExpressJS</li>
+                    <li>Flutter</li>
+                    <li>Programming with C</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>MongoDB</li>
+                    <li>FireBase</li>
+                    <li>MySQL</li>
+                </ul>
+                </div>
+        </div>
+    </section>
+</body>
+</html>
