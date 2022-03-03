@@ -101,6 +101,7 @@ h4{
 #AboutMe img{
     height: auto;
 	width: 430px;
+	
 }
 .Information-Section{
     width: 550px;
@@ -324,6 +325,7 @@ p{
 		display: block;
 		width: 80%;
 		margin: auto;
+		height: auto;
 	}
 	.Skills ul li{
 		width: auto;
@@ -331,7 +333,7 @@ p{
 	.card{
 		margin-bottom: 8%;
 	}
-	#serv_section,#AboutMe,#Exp_Section{
+	#serv_section,#AboutMe,#Exp_Section,#Skill_Section{
 		height: auto;
 		width: 100%;
 		margin: auto;
@@ -339,10 +341,9 @@ p{
 	#about_section{
 		background-color: #00080e;
 		height: auto;
+		text-align: center;
     	width: 100%;
-    	margin: auto;
-		
-		
+    	margin: auto;	
 	}
 	#AboutMe{
 		padding: 10px 0px;
@@ -377,6 +378,14 @@ p{
 		width: 40%;
 		align-self: center;
 		margin: auto;
+		border-radius: 50%;
+	}
+	#AboutMe ul li{
+		text-align: center;
+	}
+	#aboutMe button{
+		text-align: center;
+		margin: 35px auto;
 	}
 	.Information-Section{
 		width: auto;
