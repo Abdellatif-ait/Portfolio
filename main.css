@@ -37,7 +37,7 @@ nav.sticky{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0 4%;
+	padding: 1% 4%;
 	transition: .5s;
 	z-index: 5;
 }
@@ -101,6 +101,7 @@ h4{
 #AboutMe img{
     height: auto;
 	width: 430px;
+	border-radius: 25%;
 	
 }
 .Information-Section{
@@ -174,7 +175,7 @@ button:hover{
 }
 #Exp_section{
     background-color: #00080e;
-	height: 100vh;
+	height: auto;
     width: 100%;
     margin: auto;
 }
@@ -199,6 +200,7 @@ p{
     flex-basis: 30%;
 	cursor: pointer;
 }
+
 .modal {
   position: fixed;
   top: 50%;
@@ -281,6 +283,10 @@ p{
   #check{
 	display: none;
   }
+  #EXP2{
+	display: flex;	
+	justify-content: space-around;
+  }
 @media (max-width:1000px){
 	.checkbtn{
 		display: block;
@@ -320,7 +326,7 @@ p{
 	  #check:checked ~ ul{
 		left: 0;
 	  }
-	.Services,.Experiance,.Skills{
+	.Services,.Experiance,.Skills,#EXP2{
 		padding: 10px 0px;
 		display: block;
 		width: 80%;
@@ -393,21 +399,3 @@ p{
 
 }
 
-/*#Nav-element.active{
-		list-style-type: none;
-		display: block;
-		padding: 10px  25px;
-		z-index: 10;
-	}
-	#Nav-element.active #menubar{
-		opacity: 0;
-	}
-	nav.active{
-		position: relative;
-		display: inline-block;
-		align-items: center;
-		justify-content: space-between;
-		padding-top: 45px;
-		padding-left: 8%;
-		padding-right: 8%;
-	}*/
